@@ -46329,88 +46329,67 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      dialog: false,
-      drawer: true,
-      items: [{ icon: 'contacts', text: 'Contacts' }, { icon: 'history', text: 'Frequently contacted' }, { icon: 'content_copy', text: 'Duplicates' }, {
-        icon: 'keyboard_arrow_up',
-        'icon-alt': 'keyboard_arrow_down',
-        text: 'Labels',
-        model: true,
-        children: [{ icon: 'add', text: 'Create label' }]
-      }, {
-        icon: 'keyboard_arrow_up',
-        'icon-alt': 'keyboard_arrow_down',
-        text: 'More',
-        model: false,
-        children: [{ text: 'Import' }, { text: 'Export' }, { text: 'Print' }, { text: 'Undo changes' }, { text: 'Other contacts' }]
-      }, { icon: 'settings', text: 'Settings' }, { icon: 'chat_bubble', text: 'Send feedback' }, { icon: 'help', text: 'Help' }, { icon: 'phonelink', text: 'App downloads' }, { icon: 'keyboard', text: 'Go to the old version' }]
-    };
-  },
-  props: {
-    source: String
-  }
+    data: function data() {
+        return {
+            dialog: false,
+            drawer: true,
+            items: [{
+                icon: 'contacts',
+                text: 'Contacts'
+            }, {
+                icon: 'history',
+                text: 'Frequently contacted'
+            }, {
+                icon: 'content_copy',
+                text: 'Duplicates'
+            }, {
+                icon: 'keyboard_arrow_up',
+                'icon-alt': 'keyboard_arrow_down',
+                text: 'Labels',
+                model: true,
+                children: [{
+                    icon: 'add',
+                    text: 'Create label'
+                }]
+            }, {
+                icon: 'keyboard_arrow_up',
+                'icon-alt': 'keyboard_arrow_down',
+                text: 'More',
+                model: false,
+                children: [{
+                    text: 'Import'
+                }, {
+                    text: 'Export'
+                }, {
+                    text: 'Print'
+                }, {
+                    text: 'Undo changes'
+                }, {
+                    text: 'Other contacts'
+                }]
+            }, {
+                icon: 'settings',
+                text: 'Settings'
+            }, {
+                icon: 'chat_bubble',
+                text: 'Send feedback'
+            }, {
+                icon: 'help',
+                text: 'Help'
+            }, {
+                icon: 'phonelink',
+                text: 'App downloads'
+            }, {
+                icon: 'keyboard',
+                text: 'Go to the old version'
+            }]
+        };
+    },
+    props: {
+        source: String
+    }
 });
 
 /***/ }),
@@ -46456,9 +46435,9 @@ var render = function() {
                               item.heading
                                 ? _c("v-subheader", [
                                     _vm._v(
-                                      "\n              " +
+                                      "\n                            " +
                                         _vm._s(item.heading) +
-                                        "\n            "
+                                        "\n                        "
                                     )
                                   ])
                                 : _vm._e()
@@ -46529,9 +46508,9 @@ var render = function() {
                                   [
                                     _c("v-list-tile-title", [
                                       _vm._v(
-                                        "\n                " +
+                                        "\n                                " +
                                           _vm._s(item.text) +
-                                          "\n              "
+                                          "\n                            "
                                       )
                                     ])
                                   ],
@@ -46563,9 +46542,9 @@ var render = function() {
                                     [
                                       _c("v-list-tile-title", [
                                         _vm._v(
-                                          "\n                " +
+                                          "\n                                " +
                                             _vm._s(child.text) +
-                                            "\n              "
+                                            "\n                            "
                                         )
                                       ])
                                     ],
@@ -46593,9 +46572,9 @@ var render = function() {
                               [
                                 _c("v-list-tile-title", [
                                   _vm._v(
-                                    "\n              " +
+                                    "\n                            " +
                                       _vm._s(item.text) +
-                                      "\n            "
+                                      "\n                        "
                                   )
                                 ])
                               ],
@@ -46637,7 +46616,7 @@ var render = function() {
                   }
                 }
               }),
-              _vm._v("\n      Google Contacts\n    ")
+              _vm._v("\n            Google Contacts\n        ")
             ],
             1
           ),
@@ -46770,7 +46749,7 @@ var render = function() {
             "v-card",
             [
               _c("v-card-title", { staticClass: "grey lighten-4 py-4 title" }, [
-                _vm._v("\n        Create contact\n      ")
+                _vm._v("\n                Create contact\n            ")
               ]),
               _vm._v(" "),
               _c(
